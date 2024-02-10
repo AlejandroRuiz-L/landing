@@ -1,0 +1,42 @@
+.sidebar{
+  background-color: rgb(76, 120, 135);
+  padding: 20px;
+  width: 200px;
+  float: right;
+}
+.logo{
+  max-width: 120px;
+}
+.balon{
+  max-width: 95px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background: rgb(76, 120, 135);
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  background: #b8b8b8;
+}
+  footer{
+  background: rgb(76, 120, 135);
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(120, 0, 120);
+  font-family: 'Protest Riot',sans-serif;
+}
+img{
+  max-width: 450px;
+}
+ul li a:hover{
+  color: rgb(165, 0, 165);
+}

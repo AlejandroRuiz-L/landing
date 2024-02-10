@@ -4,61 +4,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto+Mono:wght@100&display=swap"
+    rel="stylesheet">
   <title>Landing deportiva</title>
 </head>
 
 <body>
   <header>
-    <img src="assets/logo_deportivo.jpg" />
+    <img src="assets/logo_deportivo.jpg" class="logo" />
     <nav>
       <ul>
-        <li><a href="actualidad.html">Actualidad</a></li>
+        <li><a href="actualidad.html" title="Ultimas noticias">Actualidad</a></li>
       </ul>
     </nav>
     <nav>
       <ul>
-        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="eventos.html" title="Proximos eventos">Eventos</a></li>
       </ul>
     </nav>
     <nav>
       <ul>
-        <li><a href="notificaciones.html">Notificaciones</a></li>
-      </ul>
-    </nav>
-    <nav>
-      <ul>
-        <li><a href="equipamiento.html">Equipamiento</a></li>
+        <li><a href="equipamiento.html" title="Tienda de equipamiento">Equipamiento <svg
+              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack2-fill"
+              viewBox="0 0 16 16">
+              <path d="M5 13h6v-3h-1v.5a.5.5 0 0 1-1 0V10H5z" />
+              <path
+                d="M6 2v.341C3.67 3.165 2 5.388 2 8v1.191l-1.17.585A1.5 1.5 0 0 0 0 11.118V13.5A1.5 1.5 0 0 0 1.5 15h1c.456.607 1.182 1 2 1h7c.818 0 1.544-.393 2-1h1a1.5 1.5 0 0 0 1.5-1.5v-2.382a1.5 1.5 0 0 0-.83-1.342L14 9.191V8a6 6 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6 6 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5" />
+            </svg></a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section>
-      <aside title="menu_secundario">
-        <img src="assets/logo_perfil.png" alt="Foto de perfil" />
+      <aside class="sidebar" title="Opciones de usuario">
+        <img src="assets/logo_perfil.png" alt="Foto de perfil" class="logo" title="Foto de perfil" />
         <p>Brayan Alejandro Ruiz Lenis</p>
         <nav>
           <ul>
-            <li><a href="carrito.html"><button>Mi carrito</button></a></li>
+            <li><a href="carrito.html"><button title="Historial del carrito"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                  </svg> Mi carrito</button></a></li>
           </ul>
         </nav>
         <nav>
           <ul>
-            <li><a href="preferidos.html"><button>Mis preferidos</button></a></li>
+            <li><a href="preferidos.html"><button type="button" title="Paginas que sigues"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5M8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.18.18 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.18.18 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.18.18 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.18.18 0 0 1-.134-.098z" />
+                  </svg> Mis preferidos</button></a>
+            </li>
           </ul>
         </nav>
         <nav>
           <ul>
-            <li><a href="foro.html"><button>Foro</button></a></li>
+            <li><a href="notificaciones.html"><button title="Tus notificaciones"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+                  </svg> Notificaciones</button></a></li>
           </ul>
         </nav>
         <nav>
           <ul>
-            <li><a href="config.html"><button>Configuraciones</button></a></li>
+            <li><a href="foro.html"><button title="Foro social"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-chat-right-dots-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                  </svg> Foro</button></a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="config.html"><button title="Configura tu perfil">Configuraciones</button></a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="inicio.html"><button title="Cerrar sesion"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+                    <path fill-rule="evenodd"
+                      d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                  </svg></button></a></li>
           </ul>
         </nav>
       </aside>
-      <div>
-        <p><img src="assets/logo_balon.png" />
+      <div title="Consejo del día">
+        <img src="assets/logo_balon.png" class="balon" />
+        <p>
         <h4>Sabias que?</h4>
         El ejercicio reduce tu susceptibilidad al estrés, aumenta el autoestima y minimiza los sintomas de la depresión
         y
@@ -68,35 +110,32 @@
     <section>
       <h1>No cuentes los días, haz que los días cuenten.</h1>
       <img src="assets/imagen1.png" alt="Futbolistas de Santander" />
+      <h3>Equipos de Fútbol de Santander se Destacan en el Torneo Juvenil Nacional</h3>
       <p>
-      <h3>Equipos de Fútbol de Santander se Destacan en el Torneo Juvenil Nacional</p>
-      </h3>
-
-      Los jóvenes talentos del fútbol en Santander están haciendo olas en el escenario nacional. Dos equipos juveniles
-      de
-      la
-      región alcanzaron las finales del Torneo Nacional, destacando la calidad y dedicación de los entrenadores y
-      jugadores.
-      ¡Santander se posiciona como cantera futbolística de primer nivel!</p>
+        Los jóvenes talentos del fútbol en Santander están haciendo olas en el escenario nacional. Dos equipos juveniles
+        de
+        la
+        región alcanzaron las finales del Torneo Nacional, destacando la calidad y dedicación de los entrenadores y
+        jugadores.
+        ¡Santander se posiciona como cantera futbolística de primer nivel!</p>
     </section>
     <section>
       <img src="assets/imagen2.png" alt="Ajedrez escolar" />
       <h3>Santander se Consagra en el Campeonato de Ajedrez Escolar</h3>
-
-      Estudiantes de escuelas en todo el departamento participaron en el Campeonato de Ajedrez Escolar de Santander. La
-      competencia fue intensa, pero los jóvenes talentos locales dominaron, mostrando estrategias excepcionales.
-      ¡Santander se
-      convierte en la cuna del ajedrez escolar!
+      <p>Estudiantes de escuelas en todo el departamento participaron en el Campeonato de Ajedrez Escolar de Santander.
+        La
+        competencia fue intensa, pero los jóvenes talentos locales dominaron, mostrando estrategias excepcionales.
+        ¡Santander se
+        convierte en la cuna del ajedrez escolar!</p>
     </section>
     <section>
       <img src="assets/imagen3.png" alt="Atletas Santandereanos" />
       <h3>Atletas Santandereanos Destacan en el Campeonato Nacional de Atletismo</h3>
-
-      En una actuación extraordinaria, atletas de Santander brillaron en el Campeonato Nacional de Atletismo. Los
-      corredores,
-      saltadores y lanzadores de la región se llevaron múltiples medallas, colocando a Santander en lo más alto del
-      podio y
-      demostrando que la excelencia atlética florece en sus tierras.
+      <p>En una actuación extraordinaria, atletas de Santander brillaron en el Campeonato Nacional de Atletismo. Los
+        corredores,
+        saltadores y lanzadores de la región se llevaron múltiples medallas, colocando a Santander en lo más alto del
+        podio y
+        demostrando que la excelencia atlética florece en sus tierras.</p>
     </section>
   </main>
 
