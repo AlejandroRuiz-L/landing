@@ -5,54 +5,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/main.css">
-  <title>Formulario de inscripcion</title>
+  <title>Formulario de inscripción</title>
 </head>
 
 <body>
+  <header>
+    <img src="assets/logo_deportivo.jpg" class="logo" alt="Logo principal" />
+    <h1>Formulario de inscripción</h1>
+    <img src="assets/logo_registro.png" class="logo" alt="Logo inscripcion" />
+  </header>
   <section>
-    <div>
-      <p>A continuación, ingresa tus datos personales y presiona 'Registrarse'.<br>
+    <div class="div">
+      <p><br>A continuación, ingresa tus datos personales y presiona 'Registrarse'.<br>
         Te enviaremos un correo lo antes posible.</p>
-      <img src="assets/logo_registro.png" />
     </div>
   </section>
   <section>
-    <form action="registro.html" method="get">
-      <ul>
-        <li>
-          <label for="nombre">Nombre: </label>
-          <input type="text" id="nombre" name="nombre_usuario" placeholder="Nombre completo" required />
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <label for="email">Email: </label>
-          <input type="email" id="email" name="email_usuario" placeholder="Correo electrónico" required />
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <label for="telefono">Teléfono: </label>
-          <input type="tel" id="telefono" name="telefono_usuario" required />
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <label for="edad">Edad: </label>
-          <input type="text" id="edad" name="edad usuario" />
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button type="submit" title="Registra tus datos">Registrarse</button>
-          <button type="reset" title="Vacía las casillas">Restablecer</button>
-        </li>
-      </ul>
-    </form>
+    <div>
+      <form action="registro.html" method="get" class="formulario">
+        <ul>
+          <li>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre_usuario" placeholder="Nombre completo" required />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email_usuario" placeholder="Correo electrónico" required />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" id="telefono" name="telefono_usuario" required />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="edad">Edad: </label>
+            <input type="text" id="edad" name="edad usuario" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="deporte">Pasatiempos: </label>
+            <input type="text" id="deporte" name="deporte_usuario" placeholder="Deportes que practica" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="interes" title="Deporte que le interesa">Preferencia: </label>
+            <select id="interes" name="interes_usuario" title="Deporte que le interesa" required>
+              <optgroup>
+                <option value="baloncesto">Baloncesto</option>
+                <option value="futbol" selected>Fútbol</option>
+                <option value="microfutbol">Microfútbol</option>
+                <option value="voleybol">Voleybol</option>
+                <option value="natacion">Natación</option>
+                <option value="atletismo">Atletismo</option>
+              </optgroup>
+              <optgroup>
+                <option value="ajedrez">Ajedrez</option>
+              </optgroup>
+            </select>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <div class="div">
+              <button type="submit" title="Registra tus datos" class="boton2">Registrarse</button>
+              <button type="reset" title="Vacía las casillas" class="boton2">Restablecer</button>
+              </l>
+          </li>
+        </ul>
+      </form>
+    </div>
   </section>
-  <section>
-    <a href="index.html" title="Volver al inicio"><button>Inicio</button></a>
-  </section>
+  <footer>
+    <section>
+      <div class="div">
+        <a href="index.html" title="Volver al inicio"><button class="boton-header"><svg
+              xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+              <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+            </svg></button></a>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
