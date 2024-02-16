@@ -9,20 +9,50 @@
 </head>
 
 <body>
-  <form>
-    <ul>
-      <li>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre_usuario" />
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email_usuario" />
-      </li>
-    </ul>
-  </form>
+  <section>
+    <div>
+      <p>A continuación, ingresa tus datos personales y presiona 'Registrarse'.<br>
+        Te enviaremos un correo lo antes posible.</p>
+      <img src="assets/logo_registro.png" />
+    </div>
+  </section>
+  <section>
+    <form action="registro.html" method="get">
+      <ul>
+        <li>
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre_usuario" placeholder="Nombre completo" required />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email_usuario" placeholder="Correo electrónico" required />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for="telefono">Teléfono: </label>
+          <input type="tel" id="telefono" name="telefono_usuario" required />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for="edad">Edad: </label>
+          <input type="text" id="edad" name="edad usuario" />
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button type="submit" title="Registra tus datos">Registrarse</button>
+          <button type="reset" title="Vacía las casillas">Restablecer</button>
+        </li>
+      </ul>
+    </form>
+  </section>
+  <section>
+    <a href="index.html" title="Volver al inicio"><button>Inicio</button></a>
+  </section>
 </body>
 
 </html>
