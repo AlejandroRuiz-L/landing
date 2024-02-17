@@ -77,17 +77,18 @@
   transform: translate(4px, 4px);
 }
 .div{
+  margin-top: 5px;
   display: flex;
   justify-content:center;
 }
 .sidebar1{
-  background-color: #5e7b73;
+  background-color: #42796b;
   padding: 20px;
   width: 200px;
   float: left;
 }
 .sidebar2{
-  background-color: #5e7b73;
+  background-color: #42796b;
 ;
   padding: 20px;
   width: 200px;
@@ -98,17 +99,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
-  background: #5e7b73;
+#cabecera{
+  background: #42796b;
   display: flex;
   justify-content:space-around;
   padding-bottom: 30px;
 }
-body{
+#cuerpo{
   background: #d2d2c6;
 }
-footer{
-  background: rgb(76, 120, 135);
+#pie{
+  background: #42796b;
   display: flex;
   justify-content: space-evenly;
   margin-top: 20%;
@@ -124,8 +125,9 @@ label{
   text-align: right;
 }
 a{
+  margin-top: 10px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: purple;
   font-family: 'Protest Riot',sans-serif;
 }
@@ -140,6 +142,7 @@ p{
 }
 h1{
   font-size: 2rem;
+  text-align: center;
 }
 h2{
   font-size: 1.5rem;
